@@ -42,7 +42,6 @@ def get_shop_list_by_dishes(dishes, person_count):
 get_shop_list_by_dishes(['Утка по-пекински', "Омлет"], 3)
 
 def sorted_files_by_len_strings():
-	'''This function creates file 'result.txt' with sorted strings by ascending from another 3 txt files and name each txt file and len strings'''
 	with open ('1.txt', 'r', encoding='utf-8') as file1:
 		file1_full = file1.read()
 		file1.seek(0)
